@@ -60,7 +60,7 @@ section{position:relative}
 #film-section .stage{position:sticky;top:0}
 #film .stage{display:grid;grid-template-columns:minmax(300px,.85fr) 1.3fr;gap:64px;align-items:center}
 #film .screen{position:relative;aspect-ratio:16/10;border-radius:28px;overflow:hidden;box-shadow:0 40px 110px -40px rgba(0,0,0,.6);background:linear-gradient(135deg,#19191d,#0d0d0f)}
-#film canvas{position:absolute;inset:0;width:100%;height:100%}
+#film canvas,#film .screen img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 #film .screen .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--text-on-dark-mute);font:500 13px var(--body);letter-spacing:.04em}
 #film .copy{position:relative;height:280px}
 #film .cap{position:absolute;inset:0}
